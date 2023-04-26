@@ -24,7 +24,7 @@
         <!-- {{wdata.name}} -->
       </div>
       <div class="temperature">
-        {{ weatherData.main.temp | number : "1.0-0" }}°K
+        {{ convertToCelcius(weatherData.main.temp) | number : "1.0-0" }}°C
       </div>
     </div>
   </div>
@@ -36,7 +36,9 @@
           <img src="../assets/images/min.png" />
           <span>min</span>
         </div>
-        <div class="info-block-value">{{ weatherData.main.temp_min }}°K</div>
+        <div class="info-block-value">
+          {{ convertToCelcius(weatherData.main.temp_min) | number : "1.0-0" }}°C
+        </div>
       </div>
 
       <div class="info-block">
@@ -44,7 +46,9 @@
           <img src="../assets/images/max.png" />
           <span>max</span>
         </div>
-        <div class="info-block-value">{{ weatherData.main.temp_max }}°K</div>
+        <div class="info-block-value">
+          {{ convertToCelcius(weatherData.main.temp_max) | number : "1.0-0" }}°C
+        </div>
       </div>
 
       <div class="info-block">

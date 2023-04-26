@@ -11,9 +11,13 @@ export class AppComponent implements OnInit {
   constructor(private weatherService: WeatherService) {}
   cityName: string = 'mumbai';
   weatherData?: WeatherData;
+  celciusTemperature?: number;
   ngOnInit(): void {
     this.getWeatherData(this.cityName);
     this.cityName = '';
+  }
+  convertToCelcius(temp: number): number {
+    return (this.celciusTemperature = temp - 273.15);
   }
   onSubmit() {
     this.getWeatherData(this.cityName);

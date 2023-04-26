@@ -2,7 +2,12 @@ export interface WeatherData {
   coord: Coord;
   weather: Weather[];
   base: string;
-  main: Main;
+  main: {
+    temp: number;
+    temp_min: number;
+    temp_max: number;
+    humidity: number;
+  };
   visibility: number;
   wind: Wind;
   clouds: Clouds;
