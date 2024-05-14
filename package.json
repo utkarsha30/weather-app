@@ -1,7 +1,7 @@
 {
   "name": "weather-app",
   "version": "0.0.0",
-  "author" : "Utkarsha Kshirsagar",
+  "author": "Utkarsha Kshirsagar",
   "description": "This project is to recall my angular knowledge",
   "scripts": {
     "ng": "ng",
@@ -20,6 +20,7 @@
     "@angular/platform-browser": "^15.2.0",
     "@angular/platform-browser-dynamic": "^15.2.0",
     "@angular/router": "^15.2.0",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.12.0"
