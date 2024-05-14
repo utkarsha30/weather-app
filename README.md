@@ -39,11 +39,11 @@ Make sure you have Node.js and npm installed. You can download them [here](https
   
 2. Navigate to the project directory
    ```sh
-cd angular-weather-app
+    cd angular-weather-app
 
 3. Install NPM packages
       ```sh
-npm install
+      npm install
 
 ## Development server
 
