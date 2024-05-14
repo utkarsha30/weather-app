@@ -1,6 +1,47 @@
-# WeatherApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.2.
+# Angular Weather App
+
+Welcome to the Angular Weather App! This project was created to refresh my knowledge of Angular while working as a Software Engineer. The application provides the current temperature in degrees Celsius for any city using the OpenWeatherMap API.
+
+## Live Project
+
+Check out the live project https://weather-app-j5st.onrender.com/
+## About the Project
+
+This project is a simple weather application built with Angular. It allows users to enter the name of a city and get the current temperature in degrees Celsius. The data is fetched from the OpenWeatherMap API.
+
+## Features
+
+- Search for the current temperature of any city
+- Displays temperature in degrees Celsius
+- Responsive design
+
+## Technologies Used
+
+- [Angular](https://angular.io/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Bootstrap](https://getbootstrap.com/) (for styling)
+- [OpenWeatherMap API](https://openweathermap.org/api)
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm installed. You can download them [here](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repo
+   ```sh
+   git clone https://github.com/your-username/angular-weather-app.git
+   
+2.Navigate to the project directory
+`cd angular-weather-app`
+
+3.Install NPM packages
+`npm install`
 
 ## Development server
 
@@ -9,10 +50,6 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 ## Code scaffolding
 
 Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Running unit tests
 
@@ -24,4 +61,4 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 
 ## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+To get more information on this project connect me via email: msutkarsha@gmail.com
